@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>ملخص الميدتيرم</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="s"><h2> المواضيع</h2>
+<div class="c g">اختر الموضوع وسيفتح لك الملخص  .</div>
+<div id="L"></div></section>
+<script>
+/* غيّر الروابط هنا فقط */
+var V=[
+
+{t:"حديث أبواب الخير",d:"حديث معاذ بن جبل",i:"🌙",c:"#b45309",u:"https://alblooshi74.github.io/Hadeeth/Hadeeth.html"},
+{t:"أبيات في الحكمة",d:"زهير بن أبي سلمى",i:"🪶",c:"#6d28d9",u:"https://alblooshi74.github.io/Poet/Poet.html"},
+{t:"النحو والأساليب البلاغية",d:"الجملة الاسمية وحروف الجر والبلاغة",i:"✍️",c:"#be123c",u:"https://alblooshi74.github.io/Grammer/Grammer.html"}];
+document.getElementById("L").innerHTML=V.map(function(v){return '<a class="btn" href="'+v.u+'" target="_blank" rel="noopener"><span class="ic" style="background:'+v.c+'">'+v.i+'</span><span><b>'+v.t+'</b><small>'+v.d+'</small></span></a>'}).join("");
+</script></body></html>
